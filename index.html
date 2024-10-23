@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Eggman</h1>
+        <img
+          src="https://cdn.glitch.global/d41b198d-2170-4a5d-bf31-cd4d183efe5a/Eggman.jpeg?v=1724171914495"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        <div class="instructions">
+          <h2>Using this project</h2>
+          <p class="hi">
+        The reason I am in app academy is due to one reason. 
+            I want to be able to talk to my friends.
+          </p>
+          <h2>Leave a message for me here</h2>
+
+
+    <form id="sheetdb-form"
+          method="post"
+          action="https://sheetdb.io/api/v1/be5b13x9vizfo"
+          id: <input name="data[id]">
+          Comment:<input name="data[message]">
+          Name: <input name="data[name]">
+          Age: <input name="data[age]">
+          <button type="sumbit">Submit</button>
+          </form>
+        
+        </div>
+      </div>
+    
+
+<div class="magic">
+<table>
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Age</td>
+      <td>Comment</td>
+    </tr>
+  </thead>
+  <tbody data-sheetdb-url="https://sheetdb.io/api/v1/be5b13x9vizfo"
+         data-sheetdb-sort-by="age"
+         data-sheetdb-sort-order="desc">
+    <tr>
+      <td>{{name}}</td>
+      <td>{{age}}</td>
+      <td>{{message}}</td>
+    </tr>
+  </tbody>
+</table>
+<script src="https://sheetdb.io/handlebars.js"></script>
+    </div>
+
+    
+    </div>
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+  
+  
+  </body>
+</html>
